@@ -5,3 +5,4 @@ def max_num(a,b):
 		print("B is the biggest!")
 
 max_num(5, 20)
+
