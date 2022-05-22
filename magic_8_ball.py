@@ -1,11 +1,11 @@
 import random
 random_number = random.randint(1, 9)
 
-name = "Tommy Dooley II"
-question = "Will it be sunny today? "
+name = input("What is your name?: ")
+question = input("Ask your question: ")
 answer = ""
 
-if question == "":
+if question == " ":
   print("YOU WILL BREAK THE FABRIC OF REALITY!!! ASK A QUESTION!")
 elif name == "":
   print("Question: " + question)
@@ -13,23 +13,23 @@ else:
   print(name + " asks: " + question)
 
 if random_number == 1:
-  answer = "Yes - definitely."
+  answer = "Definitely!"
 elif random_number == 2:
- answer = "It is decidedly so"
+ answer = "Try again later"
 elif random_number == 3:
-  answer = "Without a doubt."
+  answer = "You got it!"
 elif random_number == 4:
-  answer = "Reply hazy, try again."
+  answer = "Doubtful."
 elif random_number == 5:
-  answer = "Ask again later."
+  answer = "Yes!"
 elif random_number == 6:
-  answer = "Better not tell you now."
+  answer = "Nope."
 elif random_number == 7:
-  answer = "My sources say no."
+  answer = "Absolutely!"
 elif random_number == 8:
-  answer = "Outlook not so good."
+  answer = "I wouldn't count on it."
 elif random_number == 9:
-  answer = "Very doubtful."
+  answer = "Unlikely."
 else:
   print("Error!")
 
