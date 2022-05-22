@@ -1,9 +1,8 @@
-adj = input("Adjective: ")
-verb1 = input("Verb: ")
-verb2 = input("Verb: ")
-famous_person = input("Name of famous person: ")
+noun = input("Noun: ")
+verb = input("Verb: ")
+plural_verb = input("Plural verb: ")
+restaurant_name = input("Resturant name: ")
 
-madlib = f"Computer programming is so {adj}! It makes me so excited all of the time because\
- I love to {verb1}. Stay hydrated and {verb2} like you are {famous_person}!"
+madlib = f"Computers are so small that they can fit into your {noun}! Some computers are so efficient that they can {verb} while also {plural_verb}. Now if you'll excuse me, I am having a wonder dinner at {restaurant_name} tonight and I cannot be late!" 
 
 print(madlib)
