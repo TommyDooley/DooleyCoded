@@ -1,5 +1,5 @@
 
-#Calculate how much energy a 1 kg bombs has
+#Calculate how much energy a 1 kg bomb has
 
 bomb_mass = int(input("Bomb Mass: "))
 
