@@ -10,7 +10,7 @@ bomb_energy = get_energy(bomb_mass)
 print(f"A 1kg bomb supplies {bomb_energy} Joules.")
 #-----------------------------------------------------------------------------------------------
 
-#Calculate the force and work or a train
+#Calculate the force and work for a train
 
 train_mass = int(input("Train Mass: "))
 train_acceleration = int(input("Train Acceleration: "))
