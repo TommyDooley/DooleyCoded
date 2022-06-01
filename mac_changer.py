@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
 
-#import subprocess
-#import optparse
+# import subprocess
+# import argparse
 
-#def change_mac(network, new_mac):
-    #print(f"[+] Changing MAC address for {network} to {new_mac}")
-#
-    #subprocess.call(["ifconfig", network, "down"])
-    #subprocess.call(["ifconfig", network, "hw", "ether", new_mac])
-    #subprocess.call(["ifconfig", network, "up"])
+# def change_mac(network, new_mac):
+#     print(f"[+] Changing MAC address for {network} to {new_mac}")
 
-#parser = optparse.OptionParser()
+#     subprocess.call(["ifconfig", network, "down"])
+#     subprocess.call(["ifconfig", network, "hw", "ether", new_mac])
+#     subprocess.call(["ifconfig", network, "up"])
 
-#parser.add_option("-n", "--network", dest="network", help="Interface to change MAC address.")
-#parser.add_option("-m", "--mac", dest="new_mac", help="New MAC address.")
+# parser = argparse.ArgumentParser()
 
-#(options, args) = parser.parse_args()
+# parser.add_argument("-n", "--network", dest="network", help="Interface to change MAC address.")
+# parser.add_argument("-m", "--mac", dest="new_mac", help="New MAC address.")
 
-#change_mac(options.network, options.new_mac)
+# args = parser.parse_args()
+
+# change_mac(args.network, args.new_mac)
