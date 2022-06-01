@@ -3,19 +3,17 @@
 # import subprocess
 # import argparse
 # 
-# parser = argparse.ArgumentParser()
+# def get_args():
+#     parser = argparse.ArgumentParser()
+#     parser.add_argument("-n", "--network", dest="network", metavar='', required=True, help="Select network device.")
+#     parser.add_argument("-m", "--mac", dest="new_mac", metavar='', required=True, help="Select new MAC address.")
+#     return parser.parse_args()
 # 
-# parser.add_argument("-n", "--network", dest="network", metavar='', help="Select network device.")
-# parser.add_argument("-m", "--mac", dest="new_mac", metavar='', help="Select new MAC address.")
-# 
-# args = parser.parse_args()
-# 
-# def change_mac(network, new_mac):
-#     print(f"[+] Changing MAC address for {network} to {new_mac}")
-# 
+# def spoof_mac(network, new_mac):
 #     subprocess.call(["ifconfig", network, "down"])
 #     subprocess.call(["ifconfig", network, "hw", "ether", new_mac])
 #     subprocess.call(["ifconfig", network, "up"])
+#     print(f"[+] Changing MAC address for {network} to {new_mac}")
 # 
-# 
-# change_mac(args.network, args.new_mac)
+# args = get_args()
+# spoof_mac(args.network, args.new_mac)
