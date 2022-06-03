@@ -1,11 +1,11 @@
-def fizz_buzz(a):
-    if a % 3 == 0 and a % 5 == 0:
-        return "FizzBuzz"
-    elif a % 5 == 0:
-        return "Buzz"
-    elif a % 3 == 0:
-        return "Fizz"
+def divisible(x):
+    if x % 3 == 0 and x % 5 == 0:
+        return "BINGO!"
+    elif x % 5 == 0:
+        return "Divisible by 5, but not 3"
+    elif x % 3 == 0:
+        return "Divisible by 3, but not 5"
     else:
-        return a
+        return "Not Quite"
 
-print(fizz_buzz(15))
+print(divisible((int(input('Pick a number divisible by 3 and 5: ')))))
