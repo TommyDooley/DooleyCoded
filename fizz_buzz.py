@@ -8,4 +8,4 @@ def divisible(x):
     else:
         return "Not Quite"
 
-print(divisible((int(input('Pick a number divisible by 3 and 5: ')))))
+print(divisible(int(input('Pick a number divisible by 3 and 5: '))))
